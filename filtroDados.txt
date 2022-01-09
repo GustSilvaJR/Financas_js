@@ -1,0 +1,15 @@
+Passo a Passo filtro de dados:
+
+
+1º Recupero todos registros escritos no formulario de pesquisa e crio um novo objeto do tipo despesa que contenha esses dados
+
+
+2º Depois passo esse objeto como parametro para outra funcao que irá validar se existe algum dado dentro do sistema que tenha esses mesmos atributos do objeto passado:
+
+	- Inicialmente crio um outro objeto que ira conter todos os dados do meu banco de dados
+
+	- Depois comparo esses dados de todos registros com os que tenho dentro do meu objeto despesa que contem os dados filtrados. Faço isso usando o filter e um arrow function, para encontrar o determinado atributo. Assim eu filtro os objetos registros contidos dentro do objeto todosObjetos, retornando para dentro de todosObjetos somente os que tiverem o atributo igual. Faço isso para cada atributo até que eu tenha meu array de objetos todo filtrado
+
+3º Passo para uma função que irá apresentar os objetos do meu array filtrado em uma tabela ou seja la no que eu for apresentar os dados
+
+	 
